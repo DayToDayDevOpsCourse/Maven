@@ -35,3 +35,26 @@
 ##### Run checkstyle goal on your project & fail the build if any errors: mvn clean install checkstyle:checkstyle checkstyle:check
 
 ##### Run checkstyle goal on your project & abd check the error but dont fail the build: mvn clean compile checkstyle:checkstyle checkstyle:check -Dcheckstyle.failOnViolation=false
+
+checkstyle plugin in pom.xml:
+
+            <plugin>
+			   <groupId>org.apache.maven.plugins</groupId>
+			   <artifactId>maven-checkstyle-plugin</artifactId>
+			   <version>3.0.0</version>
+			   <executions>
+				 <execution>
+				   <id>validate</id>
+				   <phase>validate</phase>
+				   <configuration>
+					 <encoding>UTF-8</encoding>
+					 <failsOnError>false</failsOnError>
+					 <failOnViolation>false</failOnViolation>
+				   </configuration>
+				   <goals>
+					 <goal>check</goal>
+					 <goal>checkstyle</goal>
+				   </goals>
+				 </execution>
+			   </executions>
+			 </plugin>
