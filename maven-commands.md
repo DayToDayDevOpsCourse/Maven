@@ -29,3 +29,7 @@
 9. mvn versions:revert
 
 10. mvn versions:set -DnewVersion=2.0.0-SNAPSHOT -DgenerateBackupPoms=false
+
+11. mvn deploy:deploy-file -Dversion=1.0.0 -DgeneratePom=true -Dpackaging=zip -Dfile=package.zip -DgroupId=com.devops.sample.zip -DartifactId=SampleZip -DrepositoryId=releases -Durl=http://nexus:8081/nexus/content/repositories/releases
+
+12. mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.1:get -DrepoUrl=http://nexus:8081/nexus/content/repositories/releases -DgroupId=com.devops.sample.zip -DartifactId=SampleZip -Dversion=1.0.0 -Dpackaging=zip -DrepoId=releases -Ddest=SampleZip.zip
