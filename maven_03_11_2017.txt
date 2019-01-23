@@ -5,7 +5,7 @@ B. About Maven:
 
 Maven is an automated build tool. The major advantages of Maven are : 3
 
-1. The project management tool: Where to keep the code.
+1. The project setup tool: Where to keep the code.
 
 	https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
