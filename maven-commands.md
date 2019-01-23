@@ -22,4 +22,10 @@
 
 6. Run checkstyle goal on your project & abd check the error but dont fail the build: mvn clean compile checkstyle:checkstyle checkstyle:check -Dcheckstyle.failOnViolation=false
 
-7. 
+7. mvn dependency:tree
+
+8. mvn versions:set -DnewVersion=2.0.0-SNAPSHOT
+
+9. mvn versions:revert
+
+10. mvn versions:set -DnewVersion=2.0.0-SNAPSHOT -DgenerateBackupPoms=false
