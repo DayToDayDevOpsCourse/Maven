@@ -19,7 +19,7 @@
   18. SNAPSHOT vs release versions.
   19. What are the tags we can configure in pom.xml file? (project details- groupId, artifactId, version etc, repositories, disributedManagement, profiles, plugin, depednencies, properties, SCM etc)
   20. What is maven release:prepare & maven:perform.
-  21. What needs to be configured in pom.xml if we need to release? ( <scm> tag)
+  21. What needs to be configured in pom.xml if we need to release? ( scm tag)
   22. What is <modules> in pom.xml file.
   23. what is parent & child pom.
-  24. What is <dependencyManmagement> ?
+  24. What is dependencyManmagement ?
