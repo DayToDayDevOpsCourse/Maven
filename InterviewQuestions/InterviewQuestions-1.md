@@ -2,8 +2,8 @@
   1. What is maven?
   2. What is pom.xml file?
   3. What is settings.xml file?
-  4. How to tell maven to use the customised local repo without configuring in settings.xml file? -Dsettings.localRepository=local path.
-  5. Maven life cycle phases?
+  4. How to tell maven to use the customised local repo without configuring in settings.xml file? mvn clean install -Dmaven.repo.local=/local/path.
+  5. Maven life cycle phases? maven build lifecycle phases?
   6. What is plugin?
   7. Maven dependency traverse? i.e., how maven download a dependency?
   8. How to configure a dependency?
