@@ -35,3 +35,6 @@
 1. Download the package from nexus(Make sure the nexus credentials and repos configured in settings.xml): mvn org.apache.maven.plugins:maven-dependency-plugin:3.1.1:get -DrepoUrl=http://nexus:8081/nexus/content/repositories/releases -DgroupId=com.devops.sample.zip -DartifactId=SampleZip -Dversion=1.0.0 -Dpackaging=zip -DrepoId=releases -Ddest=SampleZip.zip
 
 1. Generate website for maven project: mvn clean install org.apache.maven.plugins:maven-site-plugin:3.7.1:site
+
+1. mvn clean install -Dmaven.repo.local=/local/repo/path
+
