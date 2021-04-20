@@ -2,9 +2,9 @@
 
 ## Step-1: Install jdk1.8
 	
-	Refer: Java_Maven_Setup.docx which available under Day1 folder.
+	Refer: Java_Maven_Setup.docx which available under root folder Maven.
 
-	Download from: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+	Download from: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 	
 	jdk - java development kit - code compilation
 
@@ -16,7 +16,7 @@
 
 ## Step-2: Download maven & setup the path.
 
-	Refer: Java_Maven_Setup.docx which available under Day1 folder.
+	Refer: Java_Maven_Setup.docx which available under root folder Maven.
 	
 	Doownload from: https://maven.apache.org/download.cgi
 	
