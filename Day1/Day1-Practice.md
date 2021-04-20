@@ -27,12 +27,12 @@
 	What is maven? --> Maven is an automated build tool.
 
 	maven will
-		1. compile the code, 
-		2. test the original code (i.e., compile & runn the junit tests)
-		3. package the compiled code (.jar, .war, .ear, .zip etc)
-		4. deploy the package to remote server (tomcat/jboss application server, nexus/artifactory package/repo manager)
-		5. code coverage & quality check etc (with the help of thrid party plugin checkstyle, jacoco, sonar etc.
-		
+		compile the source code
+		compile and run the unit test cases
+		code quality check
+		packaging the compiled source code (*.jar, *.war, *.ear)
+		deploy the package to target server (package manager - nexus)
+
 		etc
 
 	Why maven is automated build tool? -- maven has standard lifecycle pahses. --> https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
