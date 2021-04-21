@@ -1,0 +1,55 @@
+Day-1:
+
+Maven: Java build tool
+
+	compile the source code
+	compile and run the unit test cases
+	code quality check
+	packaging the compiled source code (*.jar, *.war, *.ear)
+	deploy the package to target server (package manager - nexus)
+
+Day-2:
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=Addition -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=Multiplication -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+3 types of repos: to download/refer the depenedent libraries
+
+maven central - https://repo.maven.apache.org/maven2
+
+maven local repo - <userPath>/.m2/repository
+
+remote repo : nexus/Artifactory
+
+maven local repo >> maven central repo >> remote repo
+
+
+
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 340 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+
+
+Day-3:
+
+maven build lifecycle pahses
+
+clean
+
+validate
+compile
+	- resources (src/main/resources)
+	- compile  (src/main/java)
+test
+	- testResources (src/test/resources)
+	- testCompile (src/test/java)
+	- test - run the test cases i.e., run the test compiled class files
+package
+verify
+install
+depoloy (nexus)
+
+
