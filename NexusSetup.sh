@@ -6,7 +6,7 @@ sudo -i
 #Install the packages that are needed to support Nexus Repository OSS
 #yum clean all
 yum update -y
-yum -y install wget net-tools java-1.8.0-openjdk.x86_64
+yum install wget java-1.8.0-openjdk.x86_64 -y 
 
 java -version
 
