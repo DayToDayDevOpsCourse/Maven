@@ -4,8 +4,8 @@
 sudo -i
 
 #Install the packages that are needed to support Nexus Repository OSS
-#yum clean all
-#yum update -y 
+#yum clean all (no need to run on EC2 instance)
+#yum update -y (no need to run on EC2 instance)
 
 yum install wget java-1.8.0-openjdk.x86_64 -y 
 
