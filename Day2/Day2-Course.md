@@ -23,6 +23,3 @@ Maven - Day2 - topics need to be covered
                         
     
     
- 
- 
- ![image](https://user-images.githubusercontent.com/24622526/115644315-01e3be80-a33c-11eb-839b-9c2202faa417.png)
