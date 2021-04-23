@@ -5,7 +5,8 @@ sudo -i
 
 #Install the packages that are needed to support Nexus Repository OSS
 #yum clean all
-yum update -y
+#yum update -y 
+
 yum install wget java-1.8.0-openjdk.x86_64 -y 
 
 java -version
