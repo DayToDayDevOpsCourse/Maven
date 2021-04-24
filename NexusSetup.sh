@@ -1,5 +1,7 @@
 #Nexus setup: http://clusterfrak.com/sysops/app_installs/nexus_install/#download-nexus-repository-oss
 
+#Create an AWS EC2 Red Hat instance with t2.micro for this practice
+
 #go to root user: sudo -i or sudo su
 sudo -i
 
